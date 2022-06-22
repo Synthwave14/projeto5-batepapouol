@@ -1,0 +1,54 @@
+.conteiner-completo {
+    height: 667px;
+    width: 375px;
+    background-color: aqua;
+    position: absolute;
+}
+
+.topo {
+    height: 80px;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);    
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;     
+}
+
+.logo-uol img {
+    height: 53px;
+    width: 75px;    
+    padding-right: 150px;
+}
+
+.icone-people {
+    height: 30.93753433227539px;
+    width: 42.18772506713867px;    
+}
+
+.meio {
+    height: 507px;
+    width: 100%;
+    background-color: #E5E5E5;
+    padding-top: 26px; 
+}
+
+.base {
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.base img {
+    height: 26px;
+    width: 26px;
+    margin-right: 18px;    
+}
+
+/* mensagem de status: #DCDCDC
+   mensagem reservadas: #FFDEDE
+   mensagens normais: #FFFFFF */
