@@ -1,7 +1,6 @@
 .conteiner-completo {
     height: 667px;
-    width: 375px;
-    background-color: aqua;
+    width: 375px;    
     position: absolute;
 }
 
@@ -30,25 +29,95 @@
     height: 507px;
     width: 100%;
     background-color: #E5E5E5;
-    padding-top: 26px; 
+    padding-top: 26px;
+    position: absolute;
+    display: flex;
+}
+
+.msgs {
+    width: 100%;
+    height: 40px;
+    margin-left: 8px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    text-align: left;    
+    align-items: center;
+    border-radius: 2px;
+}
+
+.msgs h1 {
+    font-weight: 400;
+    color: #AAAAAA;
+    font-size: 14px;
+    line-height: 16.41px;
+    margin-left: 8px;
+}
+
+.msgs h2 {    
+    color: #000000;    
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    margin-left: 8px;
+}
+
+.msgs h3 {
+    margin-left: 8px;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.status {
+    background-color: #DCDCDC;
+}
+
+.private {
+    background-color: #FFDEDE;
+}
+
+.message {
+    background-color: #FFFFFF;
 }
 
 .base {
+    position: absolute;
     height: 80px;
     width: 100%;
     background-color: #ffffff;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
     align-items: center;
-    justify-content: flex-end;
     display: flex;
+    bottom: 0;
+    left: 0;
+}
+
+.base input {
+    width: 145px;
+    height: 30px;
+    margin-left: 18px;   
+}
+
+::placeholder {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;      
 }
 
 .base img {
     height: 26px;
     width: 26px;
-    margin-right: 18px;    
+    margin-left: 158px;    
 }
 
 /* mensagem de status: #DCDCDC
    mensagem reservadas: #FFDEDE
    mensagens normais: #FFFFFF */
+
+   @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
